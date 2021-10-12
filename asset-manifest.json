@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Grumppie/Draic-website/static/css/main.8d8feba5.chunk.css",
+    "main.js": "/Grumppie/Draic-website/static/js/main.717c65ec.chunk.js",
+    "main.js.map": "/Grumppie/Draic-website/static/js/main.717c65ec.chunk.js.map",
+    "runtime-main.js": "/Grumppie/Draic-website/static/js/runtime-main.c0012429.js",
+    "runtime-main.js.map": "/Grumppie/Draic-website/static/js/runtime-main.c0012429.js.map",
+    "static/js/2.e6186fbf.chunk.js": "/Grumppie/Draic-website/static/js/2.e6186fbf.chunk.js",
+    "static/js/2.e6186fbf.chunk.js.map": "/Grumppie/Draic-website/static/js/2.e6186fbf.chunk.js.map",
+    "index.html": "/Grumppie/Draic-website/index.html",
+    "static/css/main.8d8feba5.chunk.css.map": "/Grumppie/Draic-website/static/css/main.8d8feba5.chunk.css.map",
+    "static/js/2.e6186fbf.chunk.js.LICENSE.txt": "/Grumppie/Draic-website/static/js/2.e6186fbf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0012429.js",
+    "static/js/2.e6186fbf.chunk.js",
+    "static/css/main.8d8feba5.chunk.css",
+    "static/js/main.717c65ec.chunk.js"
+  ]
+}

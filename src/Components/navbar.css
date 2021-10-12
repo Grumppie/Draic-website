@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    padding: 1rem 0 1rem 1rem;
+    background-color: aliceblue;
+    width: 7rem;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    transition: 600ms ease;
+    z-index: 999;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    transition: 200ms ease;
+    border-radius: 20px;
+    padding-right: 1rem;
+}
+
+.nav-link .link-text{
+    opacity: 0;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    transition: 200ms ease-out;
+    text-align: center;
+}
+
+.nav-link i{
+    font-size:  2rem;
+    margin: 0 1.5rem;
+    transition: 200ms ease-out;
+}
+
+#home{
+    flex-basis: 25%;
+}
+
+.nav-item:nth-child(6){
+    flex-basis: 25%;
+}
+
+.navbar:hover{
+    width: 20rem;
+}
+
+.navbar:hover .link-text{
+    opacity: 1;
+    
+}
+
+.nav-link:hover{
+    background-color: rgb(0, 99, 165);
+    color: white;
+}
+

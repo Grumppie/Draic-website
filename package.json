@@ -2,7 +2,7 @@
   "name": "draic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Grumppie/Draic-website",
+  "homepage": "https://Grumppie.github.io/Draic-website",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",

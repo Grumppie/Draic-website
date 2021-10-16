@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: aliceblue;
+    height: 80vh;
+    width: 90vh;
+    border-radius: 20px;
+    background: linear-gradient(120deg,rgb(80, 191, 255),rgb(0, 119, 255));
+    z-index: 0;
+    position: relative;
+    left: 5%;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
+    z-index: 111;
+}
+.header .title span{
+    font-size: 1em;
+    color: white;
+    z-index: 111;
+    margin: 0%;
+}
+
+.header .sub-title span{
+    margin: 10px;
+    font-size: 1em;
+    color: white;
+    z-index: 111;
+    margin: 0%;
+}
+
+.header img{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.intro{
+    height: 50vh;
+    width: 70vh;
+    background-color: rgb(0, 117, 153);
+    border-radius: 20px;
+    position: relative;
+    left: -20%;}
+
+.intro .text{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    font-size: 1.5em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.089);
+    padding: 40px;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 80%;
+    right: -60%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    z-index: 111;
+}
+
+.intro img{
+    position: absolute;
+    box-shadow: 0 0 5px 15px rgba(0, 0, 0, 0.089);
+    left: -35%;
+    top: 4%;
+    height: 100%;
+    transform: scale(0.6);
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+}
+.intro .title{
+    position: relative;
+    top: 0.3em;
+    text-align: center;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+}
+
+.intro .question-mark{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20em;
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+}
+
+.vision{
+    height: 50vh;
+    width: 70vh;
+    background-color: rgb(153, 0, 133);
+    border-radius: 20px;
+    position: relative;
+    left: 30%;}
+
+.vision .title{
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+    top: 0.3em;
+    color: white;
+}
+
+.vision .img{
+    transform: scale(0.4);
+    position: absolute;
+    top: -10%;
+    left: 30%;
+}
+
+.vision .container .text{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    font-size: 1.5em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.089);
+    padding: 40px;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    width: 40vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    z-index: 111;
+}
+
+.vision .eye{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15em;
+    color: white;
+    opacity: 0.3;
+}
+
+.mission{
+    height: 50vh;
+    width: 70vh;
+    background-color: rgb(179, 0, 45);
+    border-radius: 20px;
+    position: relative;
+    left: -20%;}
+.mission .img{
+    transform: scale(0.4);
+    position: absolute;
+    top: -20%;
+    left: -60%;
+}
+
+.mission .text{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    font-size: 1.5em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.089);
+    padding: 40px;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    width: 50vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    z-index: 111;
+}
+
+.mission .title{
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+    top: 0.3em;
+    color: white;
+}
+
+.mission .rocket {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    transform: scale(8);
+    opacity: 0.3;
+}
+
+

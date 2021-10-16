@@ -52,27 +52,30 @@ const Navbar = () => {
                             <span className="link-text">acheivements</span>
                         </a>
                     </li>
-                    <li className="nav-item ">
+                    <div className="socials">
+                        <li className="nav-item ">
 
-                        <a href="/instagram" className="nav-link">
-                            <i class="fab fa-instagram-square"></i>
-                            <span className="link-text">instagram</span>
-                        </a>
-                    </li>
-                    <li className="nav-item ">
+                            <a href="/instagram" className="nav-link">
+                                <i class="fab fa-instagram-square"></i>
 
-                        <a href="/linkedin" className="nav-link">
-                            <i class="fab fa-linkedin"></i>
-                            <span className="link-text">linkedin</span>
-                        </a>
-                    </li>
-                    <li className="nav-item ">
+                            </a>
+                        </li>
+                        <li className="nav-item ">
 
-                        <a href="/twitter" className="nav-link">
-                            <i class="fab fa-twitter-square"></i>
-                            <span className="link-text">twitter</span>
-                        </a>
-                    </li>
+                            <a href="/linkedin" className="nav-link">
+                                <i class="fab fa-linkedin"></i>
+
+                            </a>
+                        </li>
+                        <li className="nav-item ">
+
+                            <a href="/twitter" className="nav-link">
+                                <i class="fab fa-twitter-square"></i>
+
+                            </a>
+                        </li>
+                    </div>
+
 
                 </ul>
             </nav>

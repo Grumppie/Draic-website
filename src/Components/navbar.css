@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins",Arial, Helvetica, sans-serif;
+    font-family: "Orbitron",Arial, Helvetica, sans-serif;
     font-size: 16px;
     
 }
@@ -18,19 +18,20 @@ a{
 }
 
 .navbar{
-    padding: 1rem 0 1rem 1rem;
+    padding: 0rem 0rem 0rem 0.5rem;
     background-color: aliceblue;
-    width: 7rem;
+    width: 6.8rem;
     height: 100vh;
     position: fixed;
     display: flex;
-    transition: 600ms ease;
+    transition: 200ms ease;
     z-index: 999;
 }
 
 .nav-links{
     display: flex;
     flex-direction: column;
+    padding: 2rem 0;
 }
 
 .nav-link{
@@ -50,6 +51,7 @@ a{
     text-transform: capitalize;
     transition: 200ms ease-out;
     text-align: center;
+    display: none;
 }
 
 .nav-link i{
@@ -67,12 +69,12 @@ a{
 }
 
 .navbar:hover{
-    width: 20rem;
+    width: 21rem;
 }
 
 .navbar:hover .link-text{
     opacity: 1;
-    
+    display: flex;
 }
 
 .nav-link:hover{
@@ -80,3 +82,21 @@ a{
     color: white;
 }
 
+.socials{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 32%;
+    justify-content: space-between;
+}
+
+.socials .nav-link{
+    height: 4rem;
+    width: 80%;
+    transition: all 200ms ease-out;
+}
+
+.navbar:hover .socials{
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}

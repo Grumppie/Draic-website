@@ -16,9 +16,9 @@ const Projects = () => {
                 <ScrollPage page={0}>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
                         <div className="header box">
+                            <img src={Tlogo} alt="" />
                             <h1 className="title"><span>DR</span>AIC</h1>
                             <h1 className="sub-title">PRO<span>JECTS</span></h1>
-                            <img src={Tlogo} alt="" />
                         </div>
                     </Animator>
                 </ScrollPage>

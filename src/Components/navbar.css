@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Orbitron",Arial, Helvetica, sans-serif;
     font-size: 16px;
+ 
     
 }
 
@@ -26,12 +27,14 @@ a{
     display: flex;
     transition: 200ms ease;
     z-index: 999;
+    border-radius: 0 20px 20px 0;
 }
 
 .nav-links{
     display: flex;
     flex-direction: column;
     padding: 2rem 0;
+    font-weight: 400;
 }
 
 .nav-link{

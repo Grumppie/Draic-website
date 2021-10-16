@@ -6,9 +6,9 @@
 
 .header{
     background-color: aliceblue;
-    height: 80vh;
+    height: 30vh;
     width: 90vh;
-    border-radius: 20px;
+    border-radius: 2px;
     background: linear-gradient(120deg,rgb(228, 214, 29),rgb(173, 212, 63));
     z-index: 0;
     position: relative;
@@ -38,27 +38,27 @@
 
 .header img{
     position: absolute;
-    width: 55%;
-    top: 60%;
-    left: 50%;
+    width: 20%;
+    top: 28%;
+    left: 20%;
     transform: translate(-50%,-50%);
 }
 
 .intro{
-    height: 50vh;
-    width: 70vh;
+    height: 90vh;
+    width: 100vh;
     background-color: rgb(6, 189, 245);
     border-radius: 20px;
     position: relative;
-    left: -20%;
+    left: -10%;
 }
 .intro-r{
-    height: 50vh;
-    width: 70vh;
-    background-color: rgb(206, 17, 196);
+    height: 90vh;
+    width: 100vh;
+    background-color: rgb(26, 83, 136);
     border-radius: 20px;
     position: relative;
-    right: -40%;
+    right: -20%;
 }
 .intro .text1,.intro-r .text1{
     background: rgba(255, 255, 255, 0.1);
@@ -72,12 +72,14 @@
     position: absolute;
     width: 80%;
     right: -60%;
-    top: 70%;
+    top: 50%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
     z-index: 111;
 }
-
+.intro-r .text1{
+    right: 20%;
+}
 .intro img,.intro-r img{
     position: absolute;
     box-shadow: 0 0 5px 15px rgba(0, 0, 0, 0.089);
@@ -87,7 +89,9 @@
     transform: scale(0.6);
     border-radius: 20px;
 }
-
+.intro-r img{
+    left: 10%;
+}
 
 .container{
     display: flex;

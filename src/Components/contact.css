@@ -1,0 +1,127 @@
+*{
+    align-content: center;
+}
+
+
+
+.Name{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    border-style:inset;
+    color:cyan;
+}
+
+.email{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    border-style:inset;
+    color:cyan;
+}
+
+.gender{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    border-style:inset;
+    color:cyan;
+}
+
+.choice{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    border-style:inset;
+    color:cyan;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    border-style:inset;
+    color:cyan;
+}
+
+.contact{
+    background-image: url("../assets/gradient.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact{
+    font-family: cursive;
+    font-size: large;
+    font-weight: 250;
+    align-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.styles{
+    width: 500px;
+    border: 15px solid red;
+    border-style: inset;
+    padding: 50px;
+    margin: auto;
+    background-image: url("../assets/gradiantlines.jpg");
+    background-size: 100% 100%;
+    color: cyan;
+    display: flex;
+    flex-direction: column;
+  }
+
+.education{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    border-style:inset;
+    color:cyan;
+}
+
+.joinus{
+    width: 100%;
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    border-style:inset;
+    color:cyan;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit{
+    background-color: silver;
+    color:black;
+    border:15px solid red;
+    border-style: inset;
+}
+
+.reset{
+    background-color: silver;
+    color:black;
+    font-size:50px;
+    border:15px solid red;
+    border-style: inset;
+}
+
+

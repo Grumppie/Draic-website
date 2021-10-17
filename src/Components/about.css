@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.header{
+.about-header{
     background-color: aliceblue;
     height: 80vh;
     width: 90vh;
@@ -15,20 +15,20 @@
     left: 5%;
 }
 
-.header h1{
+.about-header h1{
     text-align: center;
     font-size: 5em;
     font-weight: 900;
     z-index: 111;
 }
-.header .title span{
+.about-header .title span{
     font-size: 1em;
     color: white;
     z-index: 111;
     margin: 0%;
 }
 
-.header .sub-title span{
+.about-header .sub-title span{
     margin: 10px;
     font-size: 1em;
     color: white;
@@ -36,14 +36,14 @@
     margin: 0%;
 }
 
-.header img{
+.about-header img{
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
-.intro{
+.about-intro{
     height: 50vh;
     width: 70vh;
     background-color: rgb(0, 117, 153);
@@ -51,7 +51,7 @@
     position: relative;
     left: -20%;}
 
-.intro .text{
+.about-intro .text{
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     font-size: 1.5em;
@@ -63,13 +63,13 @@
     position: absolute;
     width: 90%;
     right: -80%;
-    top: 70%;
+    top: 60%;
     transform: translate(-50%,-50%);
     border-radius: 10px;
     z-index: 111;
 }
 
-.intro img{
+.about-intro img{
     position: absolute;
     box-shadow: 0 0 5px 15px rgba(0, 0, 0, 0.089);
     left: -35%;
@@ -82,7 +82,7 @@
 .container{
     display: flex;
 }
-.intro .title{
+.about-intro .title{
     position: relative;
     top: 0.3em;
     text-align: center;
@@ -90,7 +90,7 @@
     color: rgb(255, 255, 255);
 }
 
-.intro .question-mark{
+.about-intro .question-mark{
     position:absolute;
     top: 60%;
     left: 50%;
@@ -100,7 +100,7 @@
     opacity: 0.2;
 }
 
-.vision{
+.about-vision{
     height: 50vh;
     width: 70vh;
     background-color: rgb(153, 0, 133);
@@ -108,7 +108,7 @@
     position: relative;
     left: 30%;}
 
-.vision .title{
+.about-vision .title{
     text-align: center;
     font-size: 4em;
     position: relative;
@@ -116,14 +116,14 @@
     color: white;
 }
 
-.vision .img{
+.about-vision .img{
     transform: scale(0.4);
     position: absolute;
     top: -10%;
     left: 20%;
 }
 
-.vision .container .text{
+.about-vision .container .text{
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     font-size: 1.5em;
@@ -141,7 +141,7 @@
     z-index: 111;
 }
 
-.vision .eye{
+.about-vision .eye{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -151,21 +151,21 @@
     opacity: 0.3;
 }
 
-.mission{
+.about-mission{
     height: 50vh;
     width: 70vh;
     background-color: rgb(179, 0, 45);
     border-radius: 20px;
     position: relative;
     left: -20%;}
-.mission .img{
+.about-mission .img{
     transform: scale(0.4);
     position: absolute;
     top: -20%;
     left: -60%;
 }
 
-.mission .text{
+.about-mission .text{
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     font-size: 1.5em;
@@ -183,7 +183,7 @@
     z-index: 111;
 }
 
-.mission .title{
+.about-mission .title{
     text-align: center;
     font-size: 4em;
     position: relative;
@@ -191,7 +191,7 @@
     color: white;
 }
 
-.mission .rocket {
+.about-mission .rocket {
     position: absolute;
     top: 50%;
     left: 45%;

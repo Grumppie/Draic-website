@@ -1,6 +1,6 @@
 import React from 'react'
 import "./navbar.css"
-
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
@@ -12,67 +12,67 @@ const Navbar = () => {
 
                     <li className="nav-item" id="home">
 
-                        <a href="/home" className="nav-link">
+                        <Link to="/home" className="nav-link">
                             <i class="fas fa-home"></i>
                             <span className="link-text">home</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
 
-                        <a href="/about" className="nav-link">
+                        <Link to="/about" className="nav-link">
                             <i class="fas fa-info-circle"></i>
                             <span className="link-text">about</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
 
-                        <a href="/projects" className="nav-link">
+                        <Link to="/projects" className="nav-link">
                             <i class="fas fa-robot"></i>
                             <span className="link-text">projects</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
 
-                        <a href="/ourTeam" className="nav-link">
+                        <Link to="/ourTeam" className="nav-link">
                             <i class="fas fa-users"></i>
                             <span className="link-text">our team</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
 
-                        <a href="/contact" className="nav-link">
+                        <Link to="/contact" className="nav-link">
                             <i class="fas fa-envelope"></i>
                             <span className="link-text">contact</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
 
-                        <a href="/contact" className="nav-link">
+                        <Link to="/acheivement" className="nav-link">
                             <i class="fas fa-trophy"></i>
                             <span className="link-text">acheivements</span>
-                        </a>
+                        </Link>
                     </li>
                     <div className="socials">
                         <li className="nav-item ">
 
-                            <a href="/instagram" className="nav-link">
+                            <Link to="/instagram" className="nav-link">
                                 <i class="fab fa-instagram-square"></i>
 
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item ">
 
-                            <a href="/linkedin" className="nav-link">
+                            <Link to="/linkedin" className="nav-link">
                                 <i class="fab fa-linkedin"></i>
 
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item ">
 
-                            <a href="/twitter" className="nav-link">
+                            <Link to="/twitter" className="nav-link">
                                 <i class="fab fa-twitter-square"></i>
 
-                            </a>
+                            </Link>
                         </li>
                     </div>
 

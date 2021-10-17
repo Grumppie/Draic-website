@@ -13,16 +13,16 @@ const About = () => {
             <ScrollContainer>
                 <ScrollPage page={0}>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
-                        <div className="header box">
+                        <div className="about-header">
                             <h1 className="title"><span>DR</span>AIC</h1>
-                            <h1 className="sub-title"><span>About</span>  US</h1>
+                            <h1 className="sub-title">About  <span>US</span></h1>
                             <img src={Tlogo} alt="" />
                         </div>
                     </Animator>
                 </ScrollPage>
                 <ScrollPage page={1}>
                     <Animator animation={batch(Fade(), MoveIn(0, 1000), Sticky(), MoveOut(0, -1000))}>
-                        <div className="intro box">
+                        <div className="about-intro box">
                             <h1 className="title">Who Are We ?</h1>
                             <div className="container">
 
@@ -37,7 +37,7 @@ const About = () => {
                 </ScrollPage>
                 <ScrollPage page={2}>
                     <Animator animation={batch(Sticky(), FadeIn(), Fade(), MoveIn(0, 1000), MoveOut(0, -1000))}>
-                        <div className="vision box">
+                        <div className="about-vision box">
                             <h1 className="title"> Vision </h1>
                             <div className="container">
                                 <p className="text">
@@ -53,7 +53,7 @@ const About = () => {
                 </ScrollPage>
                 <ScrollPage page={3}>
                     <Animator animation={batch(StickyIn(), FadeIn(), MoveIn(0, 1000), MoveOut(0, -1000))}>
-                        <div className="mission box">
+                        <div className="about-mission box">
                             <h1 className="title"> Mission </h1>
                             <div className="container">
                                 <p className="text">

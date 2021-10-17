@@ -1,0 +1,45 @@
+.achievemnet {
+    background-color:rgb(4, 4, 10);
+    background-size: cover;
+    
+}
+.achievemnet h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px violet;
+}
+
+.achievemnet .box {
+    display: flex;
+}
+
+.achievemnet .lol {
+    /* border: 2px solid red; */
+    margin: 12px 180px;
+}
+
+.achievemnet .con {
+    display:flex;
+    flex-direction: column;
+    padding: 3px 20px;
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 50%;
+    margin: 30px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievemnet #para {
+    font-size: 1.4em;
+    color: white;
+    text-shadow: 5px 5px 5px red;
+    margin: 2px 2px;
+
+}
+.achievemnet #para1 {
+    font-size: 1.4em;
+    color: white;
+    text-shadow: 5px 5px 5px red;
+
+}

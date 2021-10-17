@@ -40,21 +40,35 @@
     position: absolute;
     width: 20%;
     top: 28%;
+<<<<<<< HEAD
     left: 10%;
+=======
+    left: 20%;
+>>>>>>> 0368eec672838833b4f780012d3bb8fbbf45e25e
     transform: translate(-50%,-50%);
 }
 
 .intro{
+<<<<<<< HEAD
     height: 70vh;
     width: 90vh;
+=======
+    height: 90vh;
+    width: 100vh;
+>>>>>>> 0368eec672838833b4f780012d3bb8fbbf45e25e
     background-color: rgb(6, 189, 245);
     border-radius: 20px;
     position: relative;
     left: -10%;
 }
 .intro-r{
+<<<<<<< HEAD
     height: 70vh;
     width: 90vh;
+=======
+    height: 90vh;
+    width: 100vh;
+>>>>>>> 0368eec672838833b4f780012d3bb8fbbf45e25e
     background-color: rgb(26, 83, 136);
     border-radius: 20px;
     position: relative;
@@ -90,7 +104,11 @@
     border-radius: 20px;
 }
 .intro-r img{
+<<<<<<< HEAD
     left: 40%;
+=======
+    left: 10%;
+>>>>>>> 0368eec672838833b4f780012d3bb8fbbf45e25e
 }
 
 .container{

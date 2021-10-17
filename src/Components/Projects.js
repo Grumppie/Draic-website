@@ -16,9 +16,15 @@ const Projects = () => {
                 <ScrollPage page={0}>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
                         <div className="header box">
+<<<<<<< HEAD
                             <h1 className="title"><span>DR</span>AIC</h1>
                             <h1 className="sub-title">PRO<span>JECTS</span></h1>
                             <img src={Tlogo} alt="" />
+=======
+                            <img src={Tlogo} alt="" />
+                            <h1 className="title"><span>DR</span>AIC</h1>
+                            <h1 className="sub-title">PRO<span>JECTS</span></h1>
+>>>>>>> 0368eec672838833b4f780012d3bb8fbbf45e25e
                         </div>
                     </Animator>
                 </ScrollPage>
@@ -38,7 +44,11 @@ const Projects = () => {
                 </ScrollPage>
                 <ScrollPage page={2}>
                     <Animator animation={batch(Sticky(), FadeIn(), Fade(), MoveIn(0, 1000), MoveOut(0, -1000))}>
+<<<<<<< HEAD
                         <div className="intro-r box ">
+=======
+                    <div className="intro-r box ">
+>>>>>>> 0368eec672838833b4f780012d3bb8fbbf45e25e
                             <h1 className="title">Customized 3D Printer</h1>
                             <div className="container">
 
@@ -52,7 +62,11 @@ const Projects = () => {
                 </ScrollPage>
                 <ScrollPage page={3}>
                     <Animator animation={batch(StickyIn(), FadeIn(), MoveIn(0, 1000), MoveOut(0, -1000))}>
+<<<<<<< HEAD
                         <div className="intro box">
+=======
+                    <div className="intro box">
+>>>>>>> 0368eec672838833b4f780012d3bb8fbbf45e25e
                             <h1 className="title">Autonomous Path Finder Robot</h1>
                             <div className="container">
 
@@ -69,4 +83,8 @@ const Projects = () => {
     )
 }
 
+<<<<<<< HEAD
 export default Projects
+=======
+export default Projects
+>>>>>>> 0368eec672838833b4f780012d3bb8fbbf45e25e

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: aliceblue;
+    height: 30vh;
+    width: 90vh;
+    border-radius: 2px;
+    background: linear-gradient(120deg,rgb(228, 214, 29),rgb(173, 212, 63));
+    z-index: 0;
+    position: relative;
+    left: 5%;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
+    z-index: 111;
+}
+.header .title span{
+    font-size: 1em;
+    color: white;
+    z-index: 111;
+    margin: 0%;
+}
+
+.header .sub-title span{
+    margin: 10px;
+    font-size: 1em;
+    color: white;
+    z-index: 111;
+    margin: 0%;
+}
+
+.header img{
+    position: absolute;
+    width: 20%;
+    top: 28%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.intro{
+    height: 90vh;
+    width: 100vh;
+    background-color: rgb(6, 189, 245);
+    border-radius: 20px;
+    position: relative;
+    left: -10%;
+}
+.intro-r{
+    height: 90vh;
+    width: 100vh;
+    background-color: rgb(26, 83, 136);
+    border-radius: 20px;
+    position: relative;
+    right: -20%;
+}
+.intro .text1,.intro-r .text1{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    font-size: 1.5em;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.089);
+    padding: 40px;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 80%;
+    right: -60%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    z-index: 111;
+}
+.intro-r .text1{
+    right: 20%;
+}
+.intro img,.intro-r img{
+    position: absolute;
+    box-shadow: 0 0 5px 15px rgba(0, 0, 0, 0.089);
+    left: -35%;
+    top: 4%;
+    height: 100%;
+    transform: scale(0.6);
+    border-radius: 20px;
+}
+.intro-r img{
+    left: 10%;
+}
+
+.container{
+    display: flex;
+}
+.intro .title,.intro-r .title{
+    position: relative;
+    top: 0.3em;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
